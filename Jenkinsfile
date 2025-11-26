@@ -23,6 +23,7 @@ pipeline {
         DOCKERHUB_USER = 'pruebasceste'
         IMAGE_NAME     = 'ceste-ci-demo'
         SONAR_HOST_URL = 'http://localhost:9000'
+        SONAR_TOKEN = 'squ_793bfd47480402ffb4a9e13e2a06bb6ea828a421'
     }
 
     stages {
