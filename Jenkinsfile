@@ -58,8 +58,7 @@ pipeline {
                     sonar-scanner ^
                       -Dsonar.projectKey=ceste-ci-demo ^
                       -Dsonar.sources=. ^
-                      -Dsonar.host.url=http://localhost:9000 ^
-                      -Dsonar.login=%SONAR_TOKEN%
+                      -Dsonar.host.url=http://localhost:9000
                 """
             }
         }
